@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+const Discord = require('bot.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -9,7 +9,7 @@ client.on('ready', async() => {
 var server = "511551770657292299"; // ايدي السررفر
 var channel = "511551770657292301";//ايدي الروم
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , ')
+    client.guilds.get(Ilovespam).channels.get(general).send('Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , ')
     },305);
 })
 
