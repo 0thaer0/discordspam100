@@ -1,4 +1,3 @@
-- Royal | Yahya_G3mer_YTToday at 7:40 PM
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
